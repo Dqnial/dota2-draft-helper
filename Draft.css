@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header-bg {
+  background: linear-gradient(to right, #000046, #1cb5e0);
+  height: 84px;
+  background-size: cover;
+  border-bottom: solid rgba(34, 20, 185, 0.6);
+}
+.logo {
+  margin-left: 17px;
+  margin-top: 23px;
+}
+.header-content {
+  display: flex;
+}
+.logo-text {
+  margin-left: 14px;
+  margin-top: 36px;
+  color: rgb(84, 11, 255);
+  font-family: "Jersey 25", serif;
+  font-size: 22px;
+}
+.main-bg {
+  display: flex;
+  background: linear-gradient(to right, #000046, #1cb5e0);
+  height: 1024px;
+  background-size: cover;
+  border-bottom: solid rgba(34, 20, 185, 0.6);
+}
+.enemy-text {
+  color: #d82929;
+  font-family: "Jersey 25", serif;
+  font-size: 22px;
+  margin-top: 22px;
+}
+.icons {
+  width: 130px;
+  height: 130px;
+  background-color: rgba(0, 0, 0, 0.28);
+}
+.enemy-icons {
+  display: flex;
+  gap: 51px;
+  margin-top: 37px;
+}
+.advice {
+  width: 865px;
+  height: 500px;
+  background-color: rgba(19, 0, 0, 0.1);
+  border: solid rgba(88, 24, 144, 0.32);
+  margin-top: 59px;
+}
+.counter-text {
+  color: white;
+  font-family: "Jersey 25", serif;
+  font-size: 22px;
+  margin-top: 14px;
+}
+.counter-icons {
+  display: flex;
+  gap: 24px;
+  margin-left: 53px;
+  margin-top: 14px;
+}
+.support-text {
+  color: white;
+  font-family: "Jersey 25", serif;
+  font-size: 22px;
+}
+.support-icons {
+  display: flex;
+  gap: 24px;
+  margin-left: 53px;
+  margin-top: 22px;
+}
+.team-text {
+  color: #2cdd5b;
+  font-family: "Jersey 25", serif;
+  font-size: 22px;
+  margin-top: 14px;
+}
+.main-contentx {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team-icons {
+  display: flex;
+  gap: 51px;
+  margin-top: 24px;
+}
+
+.heroes-menu-close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.heroes-menu-close:hover {
+  opacity: 1;
+}
+.heroes-menu-close:before,
+.heroes-menu-close:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 33px;
+  width: 2px;
+  background-color: #fff;
+}
+.heroes-menu-close:before {
+  transform: rotate(45deg);
+}
+.heroes-menu-close:after {
+  transform: rotate(-45deg);
+}
+
+.heroes-menu__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.heroes-menu {
+  transform: translateX(100%);
+  transition: transform 0.35s ease-in-out;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+}
+
+.heroes-menu.open {
+  transform: translateX(0);
+}
+
+.lightblue {
+  background: lightblue;
+}
+
+.heroes-menu__item {
+  width: 130px;
+  height: 130px;
+  cursor: pointer;
+}
+
+.icons-pick {
+  cursor: pointer;
+}
+
+.heroes-menu__item-bg-1 {
+  width: 130px;
+  height: 130px;
+  background: linear-gradient(
+    360deg,
+    rgba(0, 123, 255, 0.62) 7.5%,
+    rgba(9, 242, 254, 0.62) 23.5%,
+    rgba(14, 223, 226, 0.62) 79.5%,
+    rgba(0, 132, 255, 0.62) 100%
+  );
+}
+
+.heroes-menu__item-hero-image img {
+  margin-top: 29px;
+  width: 130px;
+  height: 72px;
+}
+
+.heroes-menu__item-hero-name {
+  font-family: "Jersey 25", serif;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+  margin-top: 3px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.heroes-menu-item {
+  width: 85px;
+}
+
+.heroes-menu-item-bg {
+  width: 85px;
+  height: 100px;
+  background: linear-gradient(
+    360deg,
+    rgba(0, 123, 255, 0.62) 7.5%,
+    rgba(9, 242, 254, 0.62) 23.5%,
+    rgba(14, 223, 226, 0.62) 79.5%,
+    rgba(0, 132, 255, 0.62) 100%
+  );
+}
+.heroes-menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+.heroes-menu-item-image img {
+  width: 85px;
+}
+.heroes-menu-item-image {
+  margin-top: 22px;
+}
+.heroes-menu-item-name {
+  font-size: 14px;
+  font-family: "Jersey 25", serif;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+}
+
+.heroes-menu-item.disabled {
+  pointer-events: none;
+  filter: grayscale(100%);
+}

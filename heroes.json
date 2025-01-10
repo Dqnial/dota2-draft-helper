@@ -1,0 +1,758 @@
+{
+  "anti_mage": {
+    "name": "Anti-Mage",
+    "image": "images/heroes-images/antimage.png",
+    "attribute": "agility",
+    "id": 1
+  },
+  "axe": {
+    "name": "Axe",
+    "image": "images/heroes-images/axe.png",
+    "attribute": "strength",
+    "id": 2
+  },
+  "crystal_maiden": {
+    "name": "Crystal Maiden",
+    "image": "images/heroes-images/crystal_maiden.png",
+    "attribute": "intelligence",
+    "id": 5
+  },
+  "dazzle": {
+    "name": "Dazzle",
+    "image": "images/heroes-images/dazzle.png",
+    "attribute": "universal",
+    "id": 50
+  },
+  "drow_ranger": {
+    "name": "Drow Ranger",
+    "image": "images/heroes-images/drow_ranger.png",
+    "attribute": "agility",
+    "id": 6
+  },
+  "earthshaker": {
+    "name": "Earthshaker",
+    "image": "images/heroes-images/earthshaker.png",
+    "attribute": "strength",
+    "id": 7
+  },
+  "lich": {
+    "name": "Lich",
+    "image": "images/heroes-images/lich.png",
+    "attribute": "intelligence",
+    "id": 31
+  },
+  "lina": {
+    "name": "Lina",
+    "image": "images/heroes-images/lina.png",
+    "attribute": "intelligence",
+    "id": 25
+  },
+  "lion": {
+    "name": "Lion",
+    "image": "images/heroes-images/lion.png",
+    "attribute": "intelligence",
+    "id": 26
+  },
+  "mirana": {
+    "name": "Mirana",
+    "image": "images/heroes-images/mirana.png",
+    "attribute": "universal",
+    "id": 9
+  },
+  "morphling": {
+    "name": "Morphling",
+    "image": "images/heroes-images/morphling.png",
+    "attribute": "agility",
+    "id": 10
+  },
+  "necrophos": {
+    "name": "Necrophos",
+    "image": "images/heroes-images/necrolyte.png",
+    "attribute": "intelligence",
+    "id": 36
+  },
+  "puck": {
+    "name": "Puck",
+    "image": "images/heroes-images/puck.png",
+    "attribute": "intelligence",
+    "id": 13
+  },
+  "pudge": {
+    "name": "Pudge",
+    "image": "images/heroes-images/pudge.png",
+    "attribute": "strength",
+    "id": 14
+  },
+  "razor": {
+    "name": "Razor",
+    "image": "images/heroes-images/razor.png",
+    "attribute": "agility",
+    "id": 15
+  },
+  "sand_king": {
+    "name": "Sand King",
+    "image": "images/heroes-images/sand_king.png",
+    "attribute": "universal",
+    "id": 16
+  },
+  "shadow_shaman": {
+    "name": "Shadow Shaman",
+    "image": "images/heroes-images/shadow_shaman.png",
+    "attribute": "intelligence",
+    "id": 27
+  },
+  "storm_spirit": {
+    "name": "Storm Spirit",
+    "image": "images/heroes-images/storm_spirit.png",
+    "attribute": "intelligence",
+    "id": 17
+  },
+  "sven": {
+    "name": "Sven",
+    "image": "images/heroes-images/sven.png",
+    "attribute": "strength",
+    "id": 18
+  },
+  "tidehunter": {
+    "name": "Tidehunter",
+    "image": "images/heroes-images/tidehunter.png",
+    "attribute": "strength",
+    "id": 29
+  },
+  "vengeful_spirit": {
+    "name": "Vengeful Spirit",
+    "image": "images/heroes-images/vengefulspirit.png",
+    "attribute": "universal",
+    "id": 20
+  },
+  "windranger": {
+    "name": "Windranger",
+    "image": "images/heroes-images/windrunner.png",
+    "attribute": "universal",
+    "id": 21
+  },
+  "witch_doctor": {
+    "name": "Witch Doctor",
+    "image": "images/heroes-images/witch_doctor.png",
+    "attribute": "intelligence",
+    "id": 30
+  },
+  "zeus": {
+    "name": "Zeus",
+    "image": "images/heroes-images/zuus.png",
+    "attribute": "intelligence",
+    "id": 22
+  },
+  "slardar": {
+    "name": "Slardar",
+    "image": "images/heroes-images/slardar.png",
+    "attribute": "strength",
+    "id": 28
+  },
+  "enigma": {
+    "name": "Enigma",
+    "image": "images/heroes-images/enigma.png",
+    "attribute": "universal",
+    "id": 33
+  },
+  "faceless_void": {
+    "name": "Faceless Void",
+    "image": "images/heroes-images/faceless_void.png",
+    "attribute": "agility",
+    "id": 41
+  },
+  "tiny": {
+    "name": "Tiny",
+    "image": "images/heroes-images/tiny.png",
+    "attribute": "strength",
+    "id": 19
+  },
+  "viper": {
+    "name": "Viper",
+    "image": "images/heroes-images/viper.png",
+    "attribute": "agility",
+    "id": 47
+  },
+  "venomancer": {
+    "name": "Venomancer",
+    "image": "images/heroes-images/venomancer.png",
+    "attribute": "universal",
+    "id": 40
+  },
+  "clockwerk": {
+    "name": "Clockwerk",
+    "image": "images/heroes-images/clockwerk.png",
+    "attribute": "universal",
+    "id": 51
+  },
+  "natures_prophet": {
+    "name": "Nature's Prophet",
+    "image": "images/heroes-images/furion.png",
+    "attribute": "intelligence",
+    "id": 53
+  },
+  "dark_seer": {
+    "name": "Dark Seer",
+    "image": "images/heroes-images/dark_seer.png",
+    "attribute": "universal",
+    "id": 55
+  },
+  "sniper": {
+    "name": "Sniper",
+    "image": "images/heroes-images/sniper.png",
+    "attribute": "agility",
+    "id": 35
+  },
+  "beastmaster": {
+    "name": "Beastmaster",
+    "image": "images/heroes-images/beastmaster.png",
+    "attribute": "universal",
+    "id": 38
+  },
+  "pugna": {
+    "name": "Pugna",
+    "image": "images/heroes-images/pugna.png",
+    "attribute": "intelligence",
+    "id": 45
+  },
+  "enchantress": {
+    "name": "Enchantress",
+    "image": "images/heroes-images/enchantress.png",
+    "attribute": "intelligence",
+    "id": 58
+  },
+  "leshrac": {
+    "name": "Leshrac",
+    "image": "images/heroes-images/leshrac.png",
+    "attribute": "intelligence",
+    "id": 52
+  },
+  "shadow_fiend": {
+    "name": "Shadow Fiend",
+    "image": "images/heroes-images/nevermore.png",
+    "attribute": "intelligence",
+    "id": 11
+  },
+  "tinker": {
+    "name": "Tinker",
+    "image": "images/heroes-images/tinker.png",
+    "attribute": "intelligence",
+    "id": 34
+  },
+  "weaver": {
+    "name": "Weaver",
+    "image": "images/heroes-images/weaver.png",
+    "attribute": "agility",
+    "id": 63
+  },
+  "night_stalker": {
+    "name": "Night Stalker",
+    "image": "images/heroes-images/night_stalker.png",
+    "attribute": "agility",
+    "id": 60
+  },
+  "ancient_apparition": {
+    "name": "Ancient Apparition",
+    "image": "images/heroes-images/ancient_apparition.png",
+    "attribute": "intelligence",
+    "id": 68
+  },
+  "spectre": {
+    "name": "Spectre",
+    "image": "images/heroes-images/spectre.png",
+    "attribute": "agility",
+    "id": 67
+  },
+  "doom": {
+    "name": "Doom",
+    "image": "images/heroes-images/doom_bringer.png",
+    "attribute": "strength",
+    "id": 69
+  },
+  "chen": {
+    "name": "Chen",
+    "image": "images/heroes-images/chen.png",
+    "attribute": "universal",
+    "id": 66
+  },
+  "juggernaut": {
+    "name": "Juggernaut",
+    "image": "images/heroes-images/juggernaut.png",
+    "attribute": "agility",
+    "id": 8
+  },
+  "bloodseeker": {
+    "name": "Bloodseeker",
+    "image": "images/heroes-images/bloodseeker.png",
+    "attribute": "agility",
+    "id": 4
+  },
+  "kunkka": {
+    "name": "Kunkka",
+    "image": "images/heroes-images/kunkka.png",
+    "attribute": "strength",
+    "id": 23
+  },
+  "riki": {
+    "name": "Riki",
+    "image": "images/heroes-images/riki.png",
+    "attribute": "agility",
+    "id": 32
+  },
+  "queen_of_pain": {
+    "name": "Queen of Pain",
+    "image": "images/heroes-images/queenofpain.png",
+    "attribute": "intelligence",
+    "id": 39
+  },
+  "wraith_king": {
+    "name": "Wraith King",
+    "image": "images/heroes-images/skeleton_king.png",
+    "attribute": "strength",
+    "id": 42
+  },
+  "broodmother": {
+    "name": "Broodmother",
+    "image": "images/heroes-images/broodmother.png",
+    "attribute": "universal",
+    "id": 61
+  },
+  "huskar": {
+    "name": "Huskar",
+    "image": "images/heroes-images/huskar.png",
+    "attribute": "strength",
+    "id": 59
+  },
+  "jakiro": {
+    "name": "Jakiro",
+    "image": "images/heroes-images/jakiro.png",
+    "attribute": "intelligence",
+    "id": 64
+  },
+  "batrider": {
+    "name": "Batrider",
+    "image": "images/heroes-images/batrider.png",
+    "attribute": "universal",
+    "id": 65
+  },
+  "omniknight": {
+    "name": "Omniknight",
+    "image": "images/heroes-images/omniknight.png",
+    "attribute": "strength",
+    "id": 57
+  },
+  "dragon_knight": {
+    "name": "Dragon Knight",
+    "image": "images/heroes-images/dragon_knight.png",
+    "attribute": "strength",
+    "id": 49
+  },
+  "warlock": {
+    "name": "Warlock",
+    "image": "images/heroes-images/warlock.png",
+    "attribute": "intelligence",
+    "id": 37
+  },
+  "alchemist": {
+    "name": "Alchemist",
+    "image": "images/heroes-images/alchemist.png",
+    "attribute": "strength",
+    "id": 73
+  },
+  "life_stealer": {
+    "name": "Lifestealer",
+    "image": "images/heroes-images/life_stealer.png",
+    "attribute": "strength",
+    "id": 54
+  },
+  "death_prophet": {
+    "name": "Death Prophet",
+    "image": "images/heroes-images/death_prophet.png",
+    "attribute": "intelligence",
+    "id": 43
+  },
+  "ursa": {
+    "name": "Ursa",
+    "image": "images/heroes-images/ursa.png",
+    "attribute": "agility",
+    "id": 70
+  },
+  "bounty_hunter": {
+    "name": "Bounty Hunter",
+    "image": "images/heroes-images/bounty_hunter.png",
+    "attribute": "agility",
+    "id": 62
+  },
+  "silencer": {
+    "name": "Silencer",
+    "image": "images/heroes-images/silencer.png",
+    "attribute": "intelligence",
+    "id": 75
+  },
+  "spirit_breaker": {
+    "name": "Spirit Breaker",
+    "image": "images/heroes-images/spirit_breaker.png",
+    "attribute": "strength",
+    "id": 71
+  },
+  "invoker": {
+    "name": "Invoker",
+    "image": "images/heroes-images/invoker.png",
+    "attribute": "universal",
+    "id": 74
+  },
+  "clinkz": {
+    "name": "Clinkz",
+    "image": "images/heroes-images/clinkz.png",
+    "attribute": "agility",
+    "id": 56
+  },
+  "outworld_destroyer": {
+    "name": "Outworld Destroyer",
+    "image": "images/heroes-images/obsidian_destroyer.png",
+    "attribute": "intelligence",
+    "id": 76
+  },
+  "bane": {
+    "name": "Bane",
+    "image": "images/heroes-images/bane.png",
+    "attribute": "universal",
+    "id": 3
+  },
+  "shadow_demon": {
+    "name": "Shadow Demon",
+    "image": "images/heroes-images/shadow_demon.png",
+    "attribute": "intelligence",
+    "id": 79
+  },
+  "lycan": {
+    "name": "Lycan",
+    "image": "images/heroes-images/lycan.png",
+    "attribute": "universal",
+    "id": 77
+  },
+  "lone_druid": {
+    "name": "Lone Druid",
+    "image": "images/heroes-images/lone_druid.png",
+    "attribute": "universal",
+    "id": 80
+  },
+  "brewmaster": {
+    "name": "Brewmaster",
+    "image": "images/heroes-images/brewmaster.png",
+    "attribute": "universal",
+    "id": 78
+  },
+  "phantom_lancer": {
+    "name": "Phantom Lancer",
+    "image": "images/heroes-images/phantom_lancer.png",
+    "attribute": "agility",
+    "id": 12
+  },
+  "treant_protector": {
+    "name": "Treant Protector",
+    "image": "images/heroes-images/treant.png",
+    "attribute": "strength",
+    "id": 83
+  },
+  "ogre_magi": {
+    "name": "Ogre Magi",
+    "image": "images/heroes-images/ogre_magi.png",
+    "attribute": "intelligence",
+    "id": 84
+  },
+  "gyrocopter": {
+    "name": "Gyrocopter",
+    "image": "images/heroes-images/gyrocopter.png",
+    "attribute": "agility",
+    "id": 72
+  },
+  "chaos_knight": {
+    "name": "Chaos Knight",
+    "image": "images/heroes-images/chaos_knight.png",
+    "attribute": "strength",
+    "id": 81
+  },
+  "phantom_assassin": {
+    "name": "Phantom Assassin",
+    "image": "images/heroes-images/phantom_assassin.png",
+    "attribute": "agility",
+    "id": 44
+  },
+  "rubick": {
+    "name": "Rubick",
+    "image": "images/heroes-images/rubick.png",
+    "attribute": "intelligence",
+    "id": 86
+  },
+  "luna": {
+    "name": "Luna",
+    "image": "images/heroes-images/luna.png",
+    "attribute": "agility",
+    "id": 48
+  },
+  "io": {
+    "name": "Io",
+    "image": "images/heroes-images/wisp.png",
+    "attribute": "universal",
+    "id": 91
+  },
+  "undying": {
+    "name": "Undying",
+    "image": "images/heroes-images/undying.png",
+    "attribute": "strength",
+    "id": 85
+  },
+  "disruptor": {
+    "name": "Disruptor",
+    "image": "images/heroes-images/disruptor.png",
+    "attribute": "intelligence",
+    "id": 87
+  },
+  "templar_assassin": {
+    "name": "Templar Assassin",
+    "image": "images/heroes-images/templar_assassin.png",
+    "attribute": "agility",
+    "id": 46
+  },
+  "naga_siren": {
+    "name": "Naga Siren",
+    "image": "images/heroes-images/naga_siren.png",
+    "attribute": "agility",
+    "id": 89
+  },
+  "nyx_assassin": {
+    "name": "Nyx Assassin",
+    "image": "images/heroes-images/nyx_assassin.png",
+    "attribute": "universal",
+    "id": 88
+  },
+  "keeper_of_the_light": {
+    "name": "Keeper of the Light",
+    "image": "images/heroes-images/keeper_of_the_light.png",
+    "attribute": "intelligence",
+    "id": 90
+  },
+  "visage": {
+    "name": "Visage",
+    "image": "images/heroes-images/visage.png",
+    "attribute": "universal",
+    "id": 92
+  },
+  "meepo": {
+    "name": "Meepo",
+    "image": "images/heroes-images/meepo.png",
+    "attribute": "agility",
+    "id": 82
+  },
+  "magnus": {
+    "name": "Magnus",
+    "image": "images/heroes-images/magnataur.png",
+    "attribute": "universal",
+    "id": 97
+  },
+  "centaur_warrunner": {
+    "name": "Centaur Warrunner",
+    "image": "images/heroes-images/centaur.png",
+    "attribute": "strength",
+    "id": 96
+  },
+  "slark": {
+    "name": "Slark",
+    "image": "images/heroes-images/slark.png",
+    "attribute": "agility",
+    "id": 93
+  },
+  "timbersaw": {
+    "name": "Timbersaw",
+    "image": "images/heroes-images/shredder.png",
+    "attribute": "strength",
+    "id": 98
+  },
+  "medusa": {
+    "name": "Medusa",
+    "image": "images/heroes-images/medusa.png",
+    "attribute": "agility",
+    "id": 94
+  },
+  "troll_warlord": {
+    "name": "Troll Warlord",
+    "image": "images/heroes-images/troll_warlord.png",
+    "attribute": "agility",
+    "id": 95
+  },
+  "tusk": {
+    "name": "Tusk",
+    "image": "images/heroes-images/tusk.png",
+    "attribute": "strength",
+    "id": 100
+  },
+  "bristleback": {
+    "name": "Bristleback",
+    "image": "images/heroes-images/bristleback.png",
+    "attribute": "strength",
+    "id": 99
+  },
+  "skywrath_mage": {
+    "name": "Skywrath Mage",
+    "image": "images/heroes-images/skywrath_mage.png",
+    "attribute": "intelligence",
+    "id": 101
+  },
+  "elder_titan": {
+    "name": "Elder Titan",
+    "image": "images/heroes-images/elder_titan.png",
+    "attribute": "strength",
+    "id": 103
+  },
+  "abaddon": {
+    "name": "Abaddon",
+    "image": "images/heroes-images/abaddon.png",
+    "attribute": "universal",
+    "id": 102
+  },
+  "ember_spirit": {
+    "name": "Ember Spirit",
+    "image": "images/heroes-images/ember_spirit.png",
+    "attribute": "agility",
+    "id": 106
+  },
+  "earth_spirit": {
+    "name": "Earth Spirit",
+    "image": "images/heroes-images/earth_spirit.png",
+    "attribute": "strength",
+    "id": 107
+  },
+  "legion_commander": {
+    "name": "Legion Commander",
+    "image": "images/heroes-images/legion_commander.png",
+    "attribute": "strength",
+    "id": 104
+  },
+  "phoenix": {
+    "name": "Phoenix",
+    "image": "images/heroes-images/phoenix.png",
+    "attribute": "universal",
+    "id": 110
+  },
+  "terrorblade": {
+    "name": "Terrorblade",
+    "image": "images/heroes-images/terrorblade.png",
+    "attribute": "agility",
+    "id": 109
+  },
+  "techies": {
+    "name": "Techies",
+    "image": "images/heroes-images/techies.png",
+    "attribute": "universal",
+    "id": 105
+  },
+  "oracle": {
+    "name": "Oracle",
+    "image": "images/heroes-images/oracle.png",
+    "attribute": "intelligence",
+    "id": 111
+  },
+  "winter_wyvern": {
+    "name": "Winter Wyvern",
+    "image": "images/heroes-images/winter_wyvern.png",
+    "attribute": "universal",
+    "id": 112
+  },
+  "arc_warden": {
+    "name": "Arc Warden",
+    "image": "images/heroes-images/arc_warden.png",
+    "attribute": "intelligence",
+    "id": 113
+  },
+  "underlord": {
+    "name": "Underlord",
+    "image": "images/heroes-images/abyssal_underlord.png",
+    "attribute": "strength",
+    "id": 108
+  },
+  "monkey_king": {
+    "name": "Monkey King",
+    "image": "images/heroes-images/monkey_king.png",
+    "attribute": "agility",
+    "id": 114
+  },
+  "dark_willow": {
+    "name": "Dark Willow",
+    "image": "images/heroes-images/dark_willow.png",
+    "attribute": "universal",
+    "id": 119
+  },
+  "pangolier": {
+    "name": "Pangolier",
+    "image": "images/heroes-images/pangolier.png",
+    "attribute": "universal",
+    "id": 120
+  },
+  "grimstroke": {
+    "name": "Grimstroke",
+    "image": "images/heroes-images/grimstroke.png",
+    "attribute": "intelligence",
+    "id": 121
+  },
+  "mars": {
+    "name": "Mars",
+    "image": "images/heroes-images/mars.png",
+    "attribute": "strength",
+    "id": 129
+  },
+  "snapfire": {
+    "name": "Snapfire",
+    "image": "images/heroes-images/snapfire.png",
+    "attribute": "universal",
+    "id": 128
+  },
+  "void_spirit": {
+    "name": "Void Spirit",
+    "image": "images/heroes-images/void_spirit.png",
+    "attribute": "universal",
+    "id": 126
+  },
+  "hoodwink": {
+    "name": "Hoodwink",
+    "image": "images/heroes-images/hoodwink.png",
+    "attribute": "agility",
+    "id": 123
+  },
+  "dawnbreaker": {
+    "name": "Dawnbreaker",
+    "image": "images/heroes-images/dawnbreaker.png",
+    "attribute": "strength",
+    "id": 135
+  },
+  "marci": {
+    "name": "Marci",
+    "image": "images/heroes-images/marci.png",
+    "attribute": "universal",
+    "id": 136
+  },
+  "primal_beast": {
+    "name": "Primal Beast",
+    "image": "images/heroes-images/primal_beast.png",
+    "attribute": "strength",
+    "id": 137
+  },
+  "muerta": {
+    "name": "Muerta",
+    "image": "images/heroes-images/muerta.png",
+    "attribute": "agility",
+    "id": 138
+  },
+  "ringmaster": {
+    "name": "Ringmaster",
+    "image": "images/heroes-images/ringmaster.png",
+    "attribute": "intelligence",
+    "id": 131
+  },
+  "kez": {
+    "name": "Kez",
+    "image": "images/heroes-images/kez.png",
+    "attribute": "agility",
+    "id": 145
+  }
+}
